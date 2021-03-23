@@ -1,0 +1,403 @@
+html, body{
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+
+    width: 100%;
+    background: #DFEBF3 fixed;
+    height: 98px;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(backgroundPicture.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+footer {
+    position: fixed;
+    z-index: 1;
+
+    width: 100%;
+    background: #DFEBF3;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+
+    text-align: center;
+}
+
+#shading {
+    position: fixed;
+    width: 1260px;
+    height: 926px;
+    left: 0;
+    top: 97px;
+
+    background: rgba(20, 58, 92, 0.6) fixed;
+}
+
+#filtersBar {
+    position: fixed;
+    width: 36%;
+    height: 926px;
+    left: 64%;
+    top: 97px;
+
+    background: #A6C4E0;
+}
+
+#siteName {
+    position: fixed;
+    width: 652px;
+    height: 61px;
+    left: 87px;
+    top: 19px;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+
+    color: #143A5C;
+
+}
+
+#userName {
+    position: fixed;
+    width: 250px;
+    height: 46px;
+    left: 66%;
+    top: 26px;
+
+    background: #4A7BA8;
+    border-radius: 30px;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 45px;
+
+    color: #DFEBF3;
+
+    text-align: center;
+}
+
+button.exitButton {
+    position: fixed;
+    width: 120px;
+    height: 46px;
+    left: 88%;
+    top: 26px;
+
+    outline: none;
+
+    background: #143A5C;
+    border-radius: 30px;
+
+    text-align: center;
+}
+
+textType1 {
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+
+    color: #DFEBF3;
+}
+
+textType2 {
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 40px;
+
+    color: #143A5C;
+}
+
+textType3 {
+    position: relative;
+    left: 60px;
+    top: -5px;
+
+    alignment: left;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #143A5C;
+}
+
+textType4 {
+    position: relative;
+    height: 50px;
+    top: -33px;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 27px;
+
+    color: #44505C;
+}
+
+textType5 {
+    display: inline;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+
+    padding-right: 25px;
+
+    color: #143A5C;
+}
+
+button.addPostButton {
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    left: 270px;
+    top: 145px;
+
+    outline: none;
+
+    background: #A6C4E0;
+    border-radius: 30px;
+
+    text-align: center;
+}
+
+button.show10MorePostsButton {
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    left: 270px;
+    top: 2500px;
+
+    outline: none;
+
+    background: #A6C4E0;
+    border-radius: 30px;
+
+    text-align: center;
+}
+
+button.deletePostButton {
+    position: absolute;
+    left: 445px;
+    top: 225px;
+    width: 25px;
+    height: 25px;
+
+    outline: none;
+    border: none;
+
+    background: url("deleteIcon.svg");
+}
+
+button.editPostButton {
+    position: absolute;
+    left: 480px;
+    top: 228px;
+    width: 25px;
+    height: 25px;
+
+    outline: none;
+    border: none;
+
+    background: url("editIcon.svg");
+}
+
+ul.postsList{
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0 0 150px;
+
+    position: absolute;
+    width: 605px;
+    left: 100px;
+    top: 220px;
+}
+
+ul.postsList li{
+    margin: 75px 0;
+    border: 0;
+    padding: 0;
+
+    width: 605px;
+    height: 145px;
+
+    background: #DFEBF3;
+    border-radius: 50px;
+}
+
+button.likeButton {
+    position: relative;
+    left: 330px;
+    top: -25px;
+
+    padding: 15px 15px 15px 15px;
+
+    outline: none;
+    border: none;
+
+    background: url("likeIcon.svg");
+}
+
+dateAndTime {
+    position: relative;
+    width: 200px;
+    height: 21px;
+    left: 50px;
+    top: -27px;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 26px;
+
+    color: #DFEBF3;
+}
+
+userIcon {
+    position: relative;
+    left: -330px;
+    top: 55px;
+
+    padding: 33px 43px 23px 32px;
+
+    background: #DFEBF3 url("userIcon.svg");
+    border-radius: 50px;
+}
+
+authorsName {
+    position: relative;
+    left: -115px;
+    top: 8px;
+
+    padding: 6px 15px 6px 15px;
+
+    background: #4A7BA8;
+    border-radius: 30px;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #DFEBF3;
+
+    text-align: center;
+}
+
+ul.tagsList{
+    list-style-type: none;
+
+    padding: 0;
+    margin: 0;
+
+    position: relative;
+    height: 25px;
+    left: 50px;
+    top: 88px;
+}
+
+ul.tagsList li{
+    display: inline;
+
+    margin: 0 3px;
+    padding: 0 40px 0 40px;
+
+    background: rgba(68, 80, 92, 0.2);
+    border: 2px solid #44505C;
+    border-radius: 30px;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #44505C;
+
+    text-align: center;
+}
+
+ul.filtersList{
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+
+    position: fixed;
+    width: 240px;
+    left: 925px;
+    top: 120px;
+}
+
+ul.filtersList li{
+    margin: 55px 0;
+    border: 0;
+    padding: 0;
+
+    width: 240px;
+    height: 50px;
+
+    background: #44505C;
+    border-radius: 26px;
+}
+
+button.plusFilter {
+    position: relative;
+    left: 200px;
+    top: 3px;
+
+    padding: 12px 12px 12px 12px;
+
+    outline: none;
+    border: none;
+
+    background: url("plusIcon.svg");;
+}
+
+#postsNotFoundMessage {
+    position: fixed;
+    width: 319px;
+    height: 37px;
+    left: 930px;
+    top: 465px;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 37px;
+
+    color: #44505C;
+}
